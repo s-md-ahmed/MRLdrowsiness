@@ -29,3 +29,11 @@ from train import show_gradcam, model, val_tf
 
 # Generate and visualize spatial activation heatmaps for real-time validation
 show_gradcam(model, "path_to_test_image.png", device="cuda")
+**### Tech Stack**
+Deep Learning Framework: PyTorch, Torchvision
+
+Model Architectures: MobileNetV2, NASNet (pretrained backbones with custom classification heads)
+
+Data Processing & Analysis: Pandas, NumPy, OpenCV, Scikit-Learn
+
+Interpretability & Visualization: Grad-CAM, Matplotlib
